@@ -19,7 +19,7 @@ const BookDetails = () => {
           <img
             src="/book1.png"
             alt="Book cover"
-            className="w-[300px] h-[400px] object-cover shadow-xl "
+            className="w-[300px] h-[400px] object-cover transition-all duration-300 hover:brightness-105 hover:shadow-lg active:scale-95 hover:translate-y-[-2px]"
           />
         </div>
 
@@ -65,7 +65,7 @@ const BookDetails = () => {
               placeholder="Accession number"
               className="flex-1 h-12 px-4 outline-none rounded-xl bg-[#F0F2F5] border-0 text-gray-700"
             />
-            <button className="h-12 px-8 bg-[#0259B6] hover:bg-blue-700 rounded-xl text-white">
+            <button className="h-12 px-8 bg-[#0259B6] hover:bg-blue-700 rounded-xl text-white transform transition-all duration-150 hover:bg-[#0247A5] hover:shadow-lg active:scale-95 hover:translate-y-[-1.5px]">
               Add
             </button>
           </div>
