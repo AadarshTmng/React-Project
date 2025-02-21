@@ -17,9 +17,9 @@ const BookDetails = () => {
         <div className="w-1/3 bg-[#0259B6] p-12 flex items-center shadow-xl justify-center">
           {/* Your actual book image would go here */}
           <img
-            src="/book.png"
+            src="/book1.png"
             alt="Book cover"
-            className="w-[300px] h-[400px] object-cover "
+            className="w-[300px] h-[400px] object-cover shadow-xl "
           />
         </div>
 
@@ -30,7 +30,7 @@ const BookDetails = () => {
             <h1 className="text-[32px] font-semibold text-black mb-2">
               Mastering Laravel
             </h1>
-            <p className="text-gray-600 text-lg">by Jane Smith</p>
+            <p className="text-gray-600 text-lg">by Aadarsh Tamang</p>
           </div>
 
           {/* Edition Badge */}
@@ -43,7 +43,7 @@ const BookDetails = () => {
           {/* Publisher */}
           <div className="mb-6">
             <label className="block text-gray-600 mb-2">Publisher</label>
-            <p className="text-black text-lg">Mark Manson</p>
+            <p className="text-black text-lg">College of Applied Business & Technology</p>
           </div>
 
           {/* Rack Number */}
